@@ -3,7 +3,7 @@
 This repository contains the group project about Introduction to Artificial Intelligence, focusing on classifying protein cellular localization using machine learning models.
 
 ## Project Overview
-This project aims to classify the cellular localization sites of proteins using the yeast dataset from the UCI Machine Learning Repository. The dataset after pre-processing consists of 1,300 data points, 8 continuous features, and 4 distinct classes (CYT, NUC, MIT, ME3).
+This project aims to classify the cellular localization sites of proteins using the yeast dataset from the UCI Machine Learning Repository. The dataset after cleaning some classes consists of 1,300 data points, 8 continuous features, and 4 distinct classes (CYT, NUC, MIT, ME3).
 
 ## Models Used
 - **Support Vector Machines (SVM)**: Tuned using GridSearchCV and RandomizedSearchCV.
@@ -24,11 +24,11 @@ This project aims to classify the cellular localization sites of proteins using 
 
 ## Dataset
 The yeast dataset is sourced from the UCI Machine Learning Repository.
+The yeast dataset used in this project is sourced from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/110/yeast).
 
 ## Contributors
 This project was a collaborative effort by:
-
-Aram Gholikimilan
-Paula Suarez Rodriguez
-Abdulla Alghareeb
-Darsheet Manmovanlal
+- Aram Gholikimilan
+- Paula Suarez Rodriguez
+- Abdulla Alghareeb
+- Darsheet Manmovanlal
